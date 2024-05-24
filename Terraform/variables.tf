@@ -1,6 +1,6 @@
-variable "prefix" {
+variable "dayoses3" {
   type        = string
-  default     = "erply-ec2-website"
+  default     = "dayos-es3-website"
   description = "Prefix resource names"
 }
 
