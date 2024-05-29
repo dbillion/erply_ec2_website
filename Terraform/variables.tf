@@ -1,4 +1,4 @@
-variable "dayoses3" {
+variable "prefix" {
   type        = string
   default     = "dayos-es3-website"
   description = "Prefix resource names"
