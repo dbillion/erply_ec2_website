@@ -9,10 +9,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "dayos-loggers-lambda"
+    bucket         = "deterraform-on-aws-for-ec2"
     key            = "terraform/aws/erply.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "LoggingData"
+    dynamodb_table = "dev-project1-vpc"
     encrypt        = true
   }
 }
